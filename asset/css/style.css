@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1170px;
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: white;
+}
+#rectangle{
+    height: 50px;
+    border: 1px solid rgb(0, 90, 255);
+    background-color: limegreen;
+}
